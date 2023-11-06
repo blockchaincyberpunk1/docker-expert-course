@@ -1,0 +1,59 @@
+User Management in Docker
+
+Course: Docker Developer Course
+
+Assignment Overview:
+User management in Docker is crucial for securing containerized applications and minimizing potential security risks. In this assignment, students will gain practical experience in user management by configuring user namespaces and access controls for Docker containers. They will learn how to create and manage user accounts within containers and restrict container privileges effectively.
+
+Assignment Objectives:
+
+To understand the importance of user management in Docker container security.
+To gain hands-on experience in configuring user namespaces and access controls.
+To practice creating and managing user accounts within Docker containers.
+Task Description:
+
+Introduction to User Management:
+a. Provide an introduction to the significance of user management in Docker container security.
+b. Explain the potential security risks associated with improper user management in containers.
+
+User Namespace Setup:
+a. Instruct students to configure and enable user namespaces on their Docker hosts. Explain the benefits of using user namespaces for container security.
+b. Ensure that students have access to documentation and resources for setting up user namespaces.
+
+Docker Container User Configuration:
+a. Assign each student or group a Docker container or application to work with. Ensure that the selected container allows for user configuration (e.g., a Linux-based container).
+b. Instruct students to create a Dockerfile or modify an existing one to define a custom user account within the container.
+c. Guide them through the process of specifying the user's UID (User Identifier) and GID (Group Identifier) in the Dockerfile.
+
+User Account Management:
+a. Teach students how to create and manage user accounts within Docker containers. They should:
+
+Create a user with a specific UID and GID.
+Assign the user to a specific group if needed.
+Set the user as the container's default user.
+Privilege Restriction:
+a. Instruct students on how to restrict container privileges by leveraging user namespaces and capabilities.
+b. Demonstrate the use of Docker's "--cap-drop" and "--cap-add" options to limit or grant specific Linux capabilities to containerized processes.
+
+Testing and Verification:
+a. Encourage students to build and run the configured Docker containers to test their user management and privilege settings.
+b. Ask them to document the testing process, including any challenges encountered and solutions applied.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+Dockerfiles with user configuration.
+Steps taken to create and manage user accounts.
+Details of privilege restriction using user namespaces and capabilities.
+Results of testing and verification.
+Presentation (Optional):
+a. Depending on your course format, students can either present their findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Successful configuration of user namespaces and user accounts.
+Effective privilege restriction within Docker containers.
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

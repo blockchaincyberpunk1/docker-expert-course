@@ -1,0 +1,56 @@
+Containerization Overview
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Containerization is a fundamental concept in modern software development and deployment. In this assignment, you will dive into the world of containerization, understanding its core concepts, benefits, and how it differs from traditional virtualization. This assignment is designed to help you gain a comprehensive understanding of containerization technology, which is a crucial skill for Docker developers.
+
+Assignment Objectives:
+
+To understand the concept of containerization.
+To explore and explain the benefits of containerization.
+To identify and describe the key components of containerization.
+To distinguish containerization from traditional virtualization.
+Task Description:
+
+Research:
+a. Start by conducting thorough research on containerization technology. You can use online resources, books, articles, and official documentation.
+b. Ensure you understand the basic principles behind containerization, its history, and its evolution in the world of software development.
+
+Presentation or Report:
+Choose one of the following formats for your assignment submission:
+a. Presentation: Create a visually engaging presentation using tools like PowerPoint, Google Slides, or any other presentation software. Include informative slides with text, images, diagrams, and possibly even a short demo if applicable.
+b. Report: Write a detailed report using a word processor (e.g., Microsoft Word, Google Docs) with proper formatting, headings, and citations. Include illustrations and examples where necessary.
+
+Content:
+Your presentation or report should cover the following topics:
+a. Introduction to Containerization:
+
+Definition and brief history.
+Why containerization is important in modern software development.
+b. Benefits of Containerization:
+
+Explain the advantages of using containers, such as portability, scalability, and isolation.
+Provide real-world examples or case studies to illustrate these benefits.
+c. Key Components of Containerization:
+
+Describe the essential components of containerization, including Docker images, containers, Docker Hub (or container registries), and Dockerfile.
+Explain how these components work together to create and run containers.
+d. Containerization vs. Traditional Virtualization:
+
+Highlight the differences between containerization and traditional virtualization technologies (e.g., hypervisors, VMs).
+Discuss the resource efficiency, performance, and deployment speed aspects.
+Submission:
+a. Presentation: If you choose to create a presentation, record yourself presenting it (audio or video) and submit both the presentation file and the recording.
+
+b. Report: If you choose to write a report, submit the document in PDF format.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Clarity and depth of content.
+Presentation/report structure and organization.
+Use of visuals, diagrams, and examples to enhance understanding.
+Accuracy and completeness of information.
+Originality and critical thinking in discussing the topic.
+Adherence to submission guidelines (format, recording if applicable).

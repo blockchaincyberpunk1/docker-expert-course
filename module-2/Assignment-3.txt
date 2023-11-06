@@ -1,0 +1,55 @@
+Docker Networking Models
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Understanding Docker networking is crucial for Docker developers to facilitate communication between containers and external resources. In this assignment, you will explore Docker networking models by setting up and configuring different network types (e.g., bridge, host, overlay) for a multi-container scenario. Additionally, you will explain the advantages and use cases of each networking model to gain a comprehensive understanding of Docker networking capabilities.
+
+Assignment Objectives:
+
+To gain practical experience in configuring Docker networking models.
+To understand the advantages and use cases of different Docker networking models.
+To be able to select and configure the appropriate networking model for specific container scenarios.
+Task Description:
+
+Multi-Container Scenario:
+a. Define a multi-container scenario that requires communication between containers. For example, you can have a web application container communicating with a database container.
+b. Ensure that your scenario involves at least two containers that need to communicate.
+
+Networking Models:
+a. Choose three different Docker networking models from the following options: bridge, host, overlay, or any other networking model you find relevant.
+b. Explain the unique characteristics and advantages of each selected networking model.
+c. Describe when and why you might choose each model in real-world scenarios.
+
+Docker Networking Configuration:
+a. For each selected networking model, configure the Docker network as follows:
+
+Bridge Network: Create a custom bridge network and connect the containers to this network.
+Host Network: Configure the containers to use the host network mode.
+Overlay Network: Set up an overlay network and connect the containers to this network.
+Container Communication Testing:
+a. Ensure that the containers in each networking model can communicate with each other as required by your multi-container scenario.
+b. Document the steps you took to configure and test the communication within each networking model.
+
+Documentation:
+a. Create documentation that includes the following:
+
+A brief description of your multi-container scenario and its communication requirements.
+Detailed instructions for setting up each networking model, including Docker commands used.
+An explanation of the advantages and use cases for each networking model.
+Any challenges faced during configuration and how you resolved them.
+Comparison and Analysis:
+a. Compare the advantages and disadvantages of the selected networking models.
+b. Analyze which networking model is the most suitable for your specific multi-container scenario and why.
+
+Submission:
+a. Compile your documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of Docker networking configuration.
+Clarity and organization of the documentation.
+Analysis of the advantages and use cases of different networking models.
+Selection of the most appropriate networking model for the given scenario.
+Adherence to submission guidelines (format, documentation quality).

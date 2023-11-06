@@ -1,0 +1,64 @@
+Dockerized Build Agents
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Integrating Docker with Continuous Integration/Continuous Deployment (CI/CD) build agents offers flexibility and scalability in the development and testing process. In this assignment, students will configure CI/CD build agents as Docker containers. They will create a custom Docker image that includes the required build tools and dependencies, and then set up the CI/CD system to use these Dockerized agents for building and testing applications.
+
+Assignment Objectives:
+
+To understand the benefits of using Docker for CI/CD build agents.
+To gain practical experience in creating and configuring Dockerized build agents.
+To implement Docker-based CI/CD agents for building and testing applications.
+Task Description:
+
+Introduction to Dockerized Build Agents:
+a. Provide an introduction to the concept of Dockerized build agents and their advantages in CI/CD pipelines.
+b. Explain how Docker containers can simplify the management of build agent environments.
+
+Selection of CI/CD Tool:
+a. Instruct students to choose a CI/CD tool (e.g., Jenkins, GitLab CI/CD) for this assignment.
+b. Ensure that students have access to the chosen tool and the necessary permissions to configure build agents.
+
+Docker Image Creation:
+a. Guide students through the process of creating a custom Docker image that serves as the CI/CD build agent.
+b. Instruct them to include the required build tools, dependencies, and configurations within the Docker image.
+
+Dockerized Build Agent Configuration:
+a. Explain how to configure the CI/CD tool to use the custom Docker image as a build agent.
+b. Ensure that students understand how to specify Dockerized agents in the CI/CD pipeline configuration.
+
+Sample Application:
+a. Provide students with a sample application (e.g., a simple web application) and its source code.
+b. Ensure that the application's build and test scripts are compatible with the Dockerized build agent's environment.
+
+Pipeline Configuration:
+a. Instruct students to configure the CI/CD pipeline to utilize Dockerized build agents for building and testing the sample application.
+b. Encourage them to define the necessary pipeline stages, including build and test jobs.
+
+Triggering the Pipeline:
+a. Ask students to manually trigger the CI/CD pipeline by pushing changes to the application's version control repository.
+b. Ensure they understand how the pipeline automatically assigns the Dockerized build agents to execute jobs.
+
+Testing and Verification:
+a. Encourage students to verify that the Dockerized build agents correctly build and test the application.
+b. Document the pipeline execution, test results, and any troubleshooting steps.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+An overview of the Dockerized build agent setup.
+Configuration details for the Docker image.
+The results of pipeline execution and testing.
+Any challenges faced and solutions applied.
+Presentation (Optional):
+a. Depending on your course format, students can either present their Dockerized build agent setup and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective creation and configuration of Dockerized build agents.
+Successful execution of pipeline stages using Dockerized agents.
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

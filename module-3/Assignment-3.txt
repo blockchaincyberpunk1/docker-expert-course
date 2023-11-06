@@ -1,0 +1,53 @@
+Multi-Container Application with Environment Variables
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Configuration management in multi-container applications is vital for customization and security. In this assignment, you will work with environment variables within a Docker Compose setup for a multi-container application. Your task is to create a Docker Compose configuration that allows you to set, manage, and utilize environment variables for various aspects of your application, such as database connection details.
+
+Assignment Objectives:
+
+To gain practical experience in using environment variables in multi-container Docker Compose setups.
+To understand the importance of secure and customizable configuration in containerized applications.
+To practice configuring and managing environment variables within Docker Compose.
+Task Description:
+
+Multi-Container Scenario:
+a. Define a multi-container scenario for your Docker Compose setup that involves multiple services. For example, you can create a scenario where a web application container connects to a database container.
+b. Determine which aspects of the services require configuration using environment variables (e.g., database connection details, API keys).
+
+Docker Compose Configuration:
+a. Create a Docker Compose YAML file that defines the services, networks, and volumes required for your multi-container application.
+b. Within the Compose file, set up environment variables for the services that require them. Ensure that environment variables are used for sensitive data such as database passwords.
+c. Document how environment variables are defined within the Compose file and explain their significance.
+
+Service Configuration:
+a. Document the configuration details for each service, emphasizing the use of environment variables.
+b. Specify the environment variables required for each service and explain their purpose (e.g., database URL, port, API keys).
+
+Docker Compose Execution:
+a. Use the docker-compose up command to launch your multi-container application based on the Docker Compose file.
+b. Verify that the services start without errors and that the environment variables are correctly used for configuration.
+
+Testing and Verification:
+a. Test the functionality of your multi-container application to ensure that it correctly utilizes the environment variables.
+b. Document any challenges faced during the configuration process and how you resolved them.
+
+Documentation:
+a. Create documentation that includes the following:
+
+Your Docker Compose YAML file with environment variables defined.
+Detailed explanations of the environment variables and their purposes.
+Results of your testing and verification, including any issues encountered and their resolutions.
+Reflection on the importance of using environment variables for secure and customizable configuration in Docker Compose.
+Submission:
+a. Compile your Docker Compose YAML file and documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of Docker Compose configuration with environment variables.
+Clarity and organization of the documentation.
+Successful deployment and functionality testing of the multi-container application.
+Reflection on the importance of environment variables for configuration.
+Adherence to submission guidelines (format, documentation quality).

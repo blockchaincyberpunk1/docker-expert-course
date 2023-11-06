@@ -1,0 +1,53 @@
+Creating a Custom Docker Image
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Building custom Docker images is a fundamental skill for Docker developers. In this assignment, you will task students with creating a Dockerfile to build a custom Docker image for a specific application or service. Students will include necessary dependencies, configurations, and application code in the Dockerfile and then build the image. This hands-on exercise will help students understand the process of image creation and customization.
+
+Assignment Objectives:
+
+To gain practical experience in creating custom Docker images.
+To understand the structure and content of Dockerfiles.
+To practice including dependencies, configurations, and application code in Docker images.
+Task Description:
+
+Application Selection:
+a. Assign each student or group a specific application or service that they will containerize in this assignment. Examples include a web application, a database server, or a simple "Hello World" application.
+b. Ensure that the chosen application/service has specific dependencies and configurations that can be included in the Docker image.
+
+Dockerfile Creation:
+a. Instruct students to create a Dockerfile for their assigned application/service.
+b. The Dockerfile should include instructions for:
+
+Choosing a base image.
+Installing any necessary dependencies.
+Configuring the environment (e.g., setting environment variables).
+Copying application code or files into the image.
+Specifying a command to run the application or service when a container is started.
+Docker Image Building:
+a. Once the Dockerfile is ready, students should use the docker build command to build the Docker image based on their Dockerfile.
+b. Ensure that students document the build process and any errors or warnings encountered.
+
+Image Testing:
+a. Instruct students to create and run a container using the newly built custom Docker image.
+b. Students should thoroughly test the containerized application or service to ensure it works as expected.
+c. Document the testing process, including any issues faced and their resolutions.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The Dockerfile for the custom image.
+Detailed explanations of the Dockerfile instructions and their purpose.
+Documentation of the image building process, including any encountered challenges.
+Results of testing and verification, including application functionality.
+Submission:
+a. Compile the Dockerfile, documentation, and any relevant files into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Dockerfile.
+Clarity and organization of the documentation.
+Successful Docker image building and testing.
+Adherence to submission guidelines (format, documentation quality).

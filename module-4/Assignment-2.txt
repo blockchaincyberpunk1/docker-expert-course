@@ -1,0 +1,57 @@
+Multi-Stage Dockerfile
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Optimizing image build processes is crucial for efficient Docker development. In this assignment, you will instruct students to create a multi-stage Dockerfile. Multi-stage builds allow developers to separate the build and runtime environments within a Dockerfile, resulting in smaller and more efficient final images. Students will learn how to use multi-stage builds to streamline the image creation process.
+
+Assignment Objectives:
+
+To gain practical experience in creating multi-stage Dockerfiles.
+To understand the benefits of separating build and runtime environments in Docker images.
+To practice optimizing image sizes and improving image build efficiency.
+Task Description:
+
+Application Selection:
+a. Assign each student or group a specific application or service that they will containerize in this assignment. Examples include a web application, a database server, or a simple "Hello World" application.
+b. Ensure that the chosen application or service can benefit from multi-stage builds by separating the build and runtime environments.
+
+Multi-Stage Dockerfile Creation:
+a. Instruct students to create a multi-stage Dockerfile for their assigned application or service.
+b. The Dockerfile should include two or more stages, with clear separation between the build and runtime environments.
+c. The build stage should:
+
+Use a base image suitable for building the application.
+Install build-time dependencies.
+Compile, build, or package the application.
+d. The runtime stage should:
+Use a smaller base image suitable for running the application.
+Copy the built application artifacts from the build stage.
+Configure the runtime environment, such as setting environment variables.
+Specify a command to run the application.
+Docker Image Building:
+a. Once the multi-stage Dockerfile is ready, students should use the docker build command to build the Docker image based on their Dockerfile.
+b. Ensure that students document the build process and any errors or warnings encountered.
+
+Image Testing:
+a. Instruct students to create and run a container using the newly built custom Docker image.
+b. Students should thoroughly test the containerized application or service to ensure it works as expected.
+c. Document the testing process, including any issues faced and their resolutions.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The multi-stage Dockerfile for the custom image.
+Detailed explanations of the Dockerfile stages, instructions, and their purpose.
+Documentation of the image building process, including any encountered challenges.
+Results of testing and verification, including application functionality.
+Submission:
+a. Compile the multi-stage Dockerfile, documentation, and any relevant files into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the multi-stage Dockerfile.
+Clarity and organization of the documentation.
+Successful Docker image building and testing.
+Adherence to submission guidelines (format, documentation quality).

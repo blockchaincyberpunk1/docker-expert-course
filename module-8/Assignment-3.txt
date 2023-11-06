@@ -1,0 +1,62 @@
+Docker Documentation Review
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Staying updated with Docker's official documentation is essential for Docker developers. In this assignment, students will actively contribute to the improvement of Docker's official documentation by reviewing specific sections and providing feedback or suggestions for enhancement. This assignment encourages students to explore topics of interest within Docker's documentation and contribute to the Docker community.
+
+Assignment Objectives:
+
+To encourage students to actively engage with Docker's official documentation.
+To provide students with the opportunity to contribute to the improvement of Docker's documentation.
+To promote a culture of knowledge sharing and collaboration within the Docker community.
+Task Description:
+
+Introduction to Docker Documentation:
+a. Provide an introduction to Docker's official documentation, emphasizing its importance as a primary resource for Docker developers.
+b. Explain the benefits of actively reviewing and contributing to documentation.
+
+Section Selection:
+a. Instruct students to explore Docker's official documentation and select a specific section, topic, or page of interest.
+b. Ensure that the selected section aligns with their Docker development interests or questions.
+
+Documentation Review:
+a. Encourage students to thoroughly review the selected documentation section, paying attention to clarity, accuracy, and completeness.
+b. Ask them to identify areas that could benefit from improvement, clarification, or expansion.
+
+Feedback and Suggestions:
+a. Instruct students to provide constructive feedback or suggestions for enhancing the selected documentation section.
+b. Encourage them to be specific in their feedback, pointing out areas that may be unclear, outdated, or missing important details.
+
+Documentation Enhancement:
+a. If appropriate, students can also submit pull requests (PRs) to Docker's official documentation repository to implement their suggested improvements.
+b. Emphasize the importance of adhering to the project's contribution guidelines.
+
+Documentation Contribution Guidelines:
+a. Ensure that students understand and follow Docker's documentation contribution guidelines, if they choose to submit PRs.
+b. Explain the process of creating and submitting PRs for documentation changes.
+
+Documentation Enhancement Documentation:
+a. Require students to document their review and contribution process, including:
+
+The selected documentation section or topic.
+Detailed feedback or suggestions.
+Any PRs submitted for documentation enhancement.
+Reflection on their experience.
+Reflection:
+a. Ask students to reflect on their documentation review and contribution experience:
+
+What did they learn from reviewing Docker's official documentation?
+How did their feedback or contributions benefit the Docker community?
+Did they encounter any challenges during the process?
+Presentation (Optional):
+a. Depending on your course format, students can either present their documentation review and contribution experience and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Quality and usefulness of feedback or suggestions for documentation improvement.
+Clarity and completeness of documentation enhancement documentation.
+Reflection on the documentation review and contribution experience.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

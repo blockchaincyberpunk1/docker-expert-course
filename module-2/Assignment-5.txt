@@ -1,0 +1,51 @@
+Data Backup and Restore
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Data backup and restore operations are crucial skills for Docker developers, ensuring data integrity and recoverability. In this assignment, you will practice these operations by working with a Docker container that stores data (e.g., a database container). Your task is to create a script or set of Docker commands to back up the data, destroy the container, and then restore the data to a new container. This practical exercise will help you become proficient in safeguarding and recovering data in Dockerized environments.
+
+Assignment Objectives:
+
+To gain practical experience in data backup and restore operations within Docker containers.
+To understand the importance of data persistence and recovery in containerized applications.
+To become proficient in creating backup and restore procedures for containerized data.
+Task Description:
+
+Provided Docker Container:
+a. You will be provided with a Docker container that stores data. The container may contain a database or any other data storage service.
+b. Familiarize yourself with the container and its data storage mechanism.
+
+Data Backup Procedure:
+a. Create a script or set of Docker commands to back up the data stored within the provided container.
+b. Specify the backup destination, such as a local directory or another container, and ensure that the data is securely stored.
+
+Container Destruction:
+a. Destroy the provided Docker container that stores the data. Use the appropriate Docker command to remove the container.
+
+Data Restore Procedure:
+a. Create a script or set of Docker commands to restore the previously backed-up data to a new Docker container.
+b. Ensure that the restored data is functional and that the container is correctly configured to use it.
+
+Testing and Verification:
+a. Test the functionality of the new container with the restored data. Verify that the data is intact and that the container operates as expected.
+b. Document any challenges you faced during the backup and restore process and how you addressed them.
+
+Documentation:
+a. Create documentation that includes the following:
+
+A description of the provided Docker container and its data storage mechanism.
+Detailed backup and restore procedures, including scripts or Docker commands used.
+Results of your data restoration tests.
+A reflection on the importance of data persistence and recovery in Docker environments.
+Submission:
+a. Compile your documentation and backup/restore scripts or commands into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of backup and restore procedures.
+Clarity and organization of the documentation.
+Successful data restoration and functionality testing.
+Reflection on the importance of data persistence and recovery in Docker environments.
+Adherence to submission guidelines (format, documentation quality).

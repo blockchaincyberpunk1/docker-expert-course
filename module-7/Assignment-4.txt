@@ -1,0 +1,60 @@
+Blue-Green Deployment with Docker
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Blue-Green Deployment is a deployment strategy that allows for the seamless release of new versions of an application with zero downtime. In this assignment, students will practice implementing a Blue-Green Deployment strategy for a Dockerized application. They will create two sets of containers (blue and green), update one set with a new version of the application, and demonstrate the ability to switch traffic to the updated version without causing disruption.
+
+Assignment Objectives:
+
+To understand the concepts and benefits of Blue-Green Deployment.
+To gain hands-on experience in implementing a Blue-Green Deployment strategy using Docker containers.
+To practice managing the transition of traffic from one version of an application to another with zero downtime.
+Task Description:
+
+Introduction to Blue-Green Deployment:
+a. Provide an introduction to the Blue-Green Deployment strategy, emphasizing its role in ensuring uninterrupted application updates.
+b. Explain the key concepts of blue and green environments.
+
+Sample Application:
+a. Provide students with a sample Dockerized application (e.g., a web application) and its source code.
+b. Ensure that the application can be scaled horizontally by deploying multiple containers.
+
+Docker Compose File Creation:
+a. Instruct students to create a Docker Compose file that defines the application's services and dependencies.
+b. Encourage them to design the Compose file in a way that supports Blue-Green Deployment, allowing for separate blue and green environments.
+
+Blue-Green Environment Setup:
+a. Guide students in setting up the initial blue environment with a certain version of the application.
+b. Instruct them to ensure that the environment-specific configurations are correctly defined for the blue environment.
+
+Deployment of Green Environment:
+a. Ask students to create a green environment with an updated version of the application.
+b. Encourage them to make necessary changes to the Docker Compose file, environment variables, or other configuration files to distinguish between the blue and green environments.
+
+Traffic Switching:
+a. Instruct students to demonstrate how they can switch traffic from the blue environment to the green environment with zero downtime.
+b. Explain the techniques they are using (e.g., load balancer configuration, DNS changes, or other strategies).
+
+Verification and Testing:
+a. Encourage students to verify that the green environment serves traffic seamlessly after the switch.
+b. Ask them to test the deployment strategy by rolling back to the blue environment and ensuring a smooth transition.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+The Docker Compose file.
+Configuration details for the blue and green environments.
+Steps for implementing Blue-Green Deployment.
+Verification and testing results.
+Presentation (Optional):
+a. Depending on your course format, students can either present their Blue-Green Deployment setup and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective implementation of Blue-Green Deployment using Docker containers.
+Successful traffic switching without downtime.
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

@@ -1,0 +1,49 @@
+Docker Container Basics
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Understanding the fundamentals of Docker containers is essential for any Docker developer. In this assignment, you will get hands-on experience creating a simple Docker container. You will write a Dockerfile, build an image, and run a container using a provided application or a basic web server. This practical exercise will help you grasp core Docker concepts and prepare you for more advanced containerization tasks.
+
+Assignment Objectives:
+
+To gain practical experience in creating Docker containers.
+To understand the structure and components of a Dockerfile.
+To become proficient in building Docker images and running containers.
+Task Description:
+
+Application Selection:
+a. You can choose one of the following options:
+
+Option 1: Use a provided application (specified by your instructor).
+Option 2: Use a basic web server application (e.g., Nginx or Apache).
+Docker Container Creation:
+a. Write a Dockerfile that specifies the configuration for your container. Include any necessary instructions for setting up your chosen application within the container.
+b. Pay attention to important Dockerfile elements, such as base image selection, installation of dependencies, and application setup.
+c. Document your Dockerfile with comments explaining each step and its purpose.
+
+Building the Docker Image:
+a. Build the Docker image using the Dockerfile you created in the previous step. Use the docker build command.
+b. Verify that the image is successfully built by running docker images and providing the output.
+
+Running the Docker Container:
+a. Run a Docker container based on the image you built in step 3. Use the docker run command.
+b. Ensure that the container is up and running.
+c. Access the application within the container, either through a web browser (if applicable) or by examining container logs.
+
+Documentation and Reflection:
+a. Document your experience throughout the process. Include any challenges you faced and how you resolved them.
+b. Reflect on the importance of each Dockerfile instruction and how it contributes to the final container.
+c. Provide screenshots or terminal/command prompt outputs as needed to illustrate your work.
+
+Submission:
+a. Compile your documentation, Dockerfile, and any relevant screenshots into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Dockerfile.
+Successful building and running of the Docker container.
+Clarity and organization of the documentation.
+Reflection on the Dockerfile instructions and their significance.
+Adherence to submission guidelines (format, screenshots).

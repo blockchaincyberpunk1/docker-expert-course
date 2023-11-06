@@ -1,0 +1,58 @@
+Docker Volumes vs. Mounts
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Managing data effectively in Docker containers is crucial for many applications. Docker provides two primary mechanisms for data sharing between containers: volumes and mounts. In this assignment, you will explore these two approaches by designing a scenario where data needs to be shared between containers. You will create Docker containers that use both volumes and mounts and discuss the differences in data management.
+
+Assignment Objectives:
+
+To gain practical experience in using Docker volumes and mounts for data management.
+To understand the advantages and differences between Docker volumes and mounts.
+To be able to select the appropriate data management approach for specific container scenarios.
+Task Description:
+
+Scenario Design:
+a. Define a scenario in which multiple containers need to share data or access the same data source. For example, you can create a scenario where a web server container needs access to a configuration file stored outside the container.
+
+Docker Volumes:
+a. Create a Docker container that uses Docker volumes to manage data.
+b. Specify a volume in your Docker Compose file or Docker run command.
+c. Include a process that writes or reads data to/from the volume within your container.
+d. Document the steps taken to set up and use Docker volumes in your scenario.
+
+Docker Mounts:
+a. Create a second Docker container that uses Docker mounts to manage data.
+b. Configure a bind mount or a named volume mount to share data between containers.
+c. Include a process in this container that interacts with the shared data source (e.g., reads or modifies the data).
+d. Document the steps taken to set up and use Docker mounts in your scenario.
+
+Data Interaction and Comparison:
+a. Run both containers (from step 2 and step 3) in your Docker environment.
+b. Test the data interaction between containers to ensure that data is being shared as expected.
+c. Document the results of your tests and any observations regarding data management with volumes and mounts.
+
+Discussion and Analysis:
+a. Compare the advantages and differences between Docker volumes and mounts.
+b. Discuss when it is more appropriate to use volumes and when to use mounts based on your scenario.
+c. Reflect on the potential use cases for each approach and the implications for data persistence and container portability.
+
+Documentation:
+a. Create documentation that includes the following:
+
+A description of your scenario and its data sharing requirements.
+Detailed instructions for setting up and using Docker volumes and mounts.
+Results of your data interaction tests.
+A comparative analysis of volumes and mounts, including advantages and use cases.
+Recommendations for choosing the appropriate data management approach.
+Submission:
+a. Compile your documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of Docker volume and mount configuration.
+Clarity and organization of the documentation.
+Analysis of the advantages and differences between volumes and mounts.
+Recommendations for selecting the appropriate data management approach.
+Adherence to submission guidelines (format, documentation quality).

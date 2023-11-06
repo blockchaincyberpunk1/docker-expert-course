@@ -1,0 +1,45 @@
+Scaling Services with Docker Compose
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Scaling services to handle increased load is a fundamental concept in container orchestration. In this assignment, you will build upon your knowledge of Docker Compose by scaling one of the services within the Docker Compose setup. You will explore how to specify the desired number of containers for a service and test the scalability of the application. This practical exercise will help you understand how Docker Compose facilitates service scaling.
+
+Assignment Objectives:
+
+To gain hands-on experience in scaling services using Docker Compose.
+To understand how to specify the desired number of containers for a service.
+To test and analyze the scalability of a Docker Compose application.
+Task Description:
+
+Docker Compose Setup:
+a. Build upon the Docker Compose setup from the previous assignment, which defines a multi-container application with two services (e.g., a web application and a database).
+b. Ensure that the services are configured and running as expected based on your previous work.
+
+Scaling a Service:
+a. Choose one of the services within your Docker Compose setup that you want to scale. It could be the web application or another service that makes sense for your scenario.
+b. Modify the Docker Compose file to specify the desired number of containers for the chosen service. Use the scale property to define the number of replicas.
+c. Ensure that the service's configuration (e.g., ports, environment variables) is consistent across the scaled containers.
+
+Scaling Verification:
+a. Use the docker-compose up command to deploy the scaled application with multiple containers for the chosen service.
+b. Verify that the scaled service is running with the specified number of containers.
+c. Test the scalability of the application by generating load (e.g., sending requests) to the service. Document the performance and any observations.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The modifications made to the Docker Compose file to specify the desired service scaling.
+Results of your scaling tests, including performance metrics and observations.
+An analysis of the application's scalability and the impact of scaling on its behavior.
+Submission:
+a. Compile your Docker Compose YAML file, documentation, and any performance data into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Docker Compose file modifications.
+Clarity and organization of the documentation.
+Successful scaling of the chosen service and performance testing.
+Analysis of the application's scalability and behavior when scaled.
+Adherence to submission guidelines (format, documentation quality).

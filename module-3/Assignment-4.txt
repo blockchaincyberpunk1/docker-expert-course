@@ -1,0 +1,52 @@
+Inter-Container Communication
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Inter-container communication is a fundamental aspect of containerized applications, especially in microservices architectures. In this assignment, you will practice inter-container communication by creating a multi-container application using Docker Compose. Your task is to design a scenario where one service communicates with another within the same Compose network. You will demonstrate how containers interact and share data in this networked environment.
+
+Assignment Objectives:
+
+To gain practical experience in inter-container communication within Docker Compose networks.
+To understand how containers can interact and share data in a multi-container setup.
+To design a scenario that highlights the importance of inter-container communication in microservices architectures.
+Task Description:
+
+Scenario Design:
+a. Define a multi-container scenario that reflects a microservices architecture or any other situation where inter-container communication is essential. For example, you can create a scenario with a front-end web application communicating with a back-end API service.
+
+Docker Compose Configuration:
+a. Create a Docker Compose YAML file that defines the services, networks, and volumes required for your multi-container application.
+b. Set up a custom Docker network within the Compose file to facilitate communication between the services.
+c. Define the services in your Compose file, ensuring that each service is isolated within its own container.
+
+Service Configuration:
+a. Document the configuration details for each service, including environment variables and network settings.
+b. Specify how services interact with each other. For example, if one service depends on another, describe this dependency in the Compose file.
+
+Docker Compose Execution:
+a. Use the docker-compose up command to launch your multi-container application based on the Docker Compose file.
+b. Verify that all services start without errors and that the containers can communicate within the custom network.
+
+Testing and Verification:
+a. Test the functionality of your multi-container application by simulating interactions between the services. For example, if you have a front-end and back-end service, test API requests from the front-end to the back-end.
+b. Document the results of your testing and verify that the containers are successfully communicating.
+
+Documentation:
+a. Create documentation that includes the following:
+
+Your Docker Compose YAML file with network and service definitions.
+Detailed explanations of how inter-container communication is facilitated within the Compose setup.
+Results of your testing and verification, including any issues encountered and their resolutions.
+Reflection on the importance of inter-container communication in microservices architectures.
+Submission:
+a. Compile your Docker Compose YAML file and documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of Docker Compose configuration for inter-container communication.
+Clarity and organization of the documentation.
+Successful deployment and functionality testing of the multi-container application.
+Reflection on the importance of inter-container communication in microservices architectures.
+Adherence to submission guidelines (format, documentation quality).

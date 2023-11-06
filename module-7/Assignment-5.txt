@@ -1,0 +1,64 @@
+Deploying Microservices with Docker Swarm
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Microservices architecture is a popular approach to building scalable and modular applications. In this assignment, students will gain practical experience by deploying a microservices-based application using Docker Swarm. They will design a scenario with multiple microservices, create a Docker Compose file for deployment, and demonstrate how to manage and scale these microservices within the Swarm cluster.
+
+Assignment Objectives:
+
+To understand the principles and benefits of microservices architecture.
+To gain hands-on experience in deploying microservices using Docker Swarm.
+To practice managing and scaling microservices within a Swarm cluster.
+Task Description:
+
+Introduction to Microservices and Docker Swarm:
+a. Provide an introduction to microservices architecture, explaining its modularity and scalability advantages.
+b. Explain how Docker Swarm can be used to orchestrate and manage microservices.
+
+Microservices Scenario Design:
+a. Instruct students to design a microservices-based application scenario that includes multiple microservices with interdependencies.
+b. Ensure that the scenario represents real-world microservices communication patterns (e.g., RESTful APIs).
+
+Docker Compose File Creation:
+a. Guide students through the process of creating a Docker Compose file that defines the microservices, their dependencies, and any required networks.
+b. Encourage them to consider the use of Docker Compose features for specifying service configurations, networks, and volumes.
+
+Swarm Cluster Setup:
+a. Instruct students to set up a Docker Swarm cluster with at least one manager and multiple worker nodes.
+b. Ensure that they have a functional Swarm cluster to deploy microservices.
+
+Microservices Deployment:
+a. Ask students to deploy the microservices-based application to the Docker Swarm cluster using the Docker Compose file they created.
+b. Ensure that they understand how to deploy and manage stacks in Docker Swarm.
+
+Scaling Microservices:
+a. Encourage students to demonstrate how to scale individual microservices within the Swarm cluster to handle increased workloads.
+b. Explain the concepts of service replicas and how to use them effectively.
+
+Load Balancing:
+a. Instruct students to set up load balancing for the microservices using Swarm's built-in load balancing capabilities or by integrating with an external load balancer.
+b. Explain how load balancing helps distribute traffic among multiple service instances.
+
+Testing and Verification:
+a. Encourage students to test the microservices deployment by sending requests to the application, verifying the communication between microservices, and scaling responses.
+b. Document the testing process and results.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+The Docker Compose file for the microservices.
+Steps for setting up the Docker Swarm cluster.
+Deployment and scaling procedures.
+Testing results and observations.
+Presentation (Optional):
+a. Depending on your course format, students can either present their microservices deployment setup and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective deployment of microservices using Docker Swarm.
+Successful scaling and load balancing of microservices.
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

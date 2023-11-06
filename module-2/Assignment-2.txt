@@ -1,0 +1,52 @@
+Docker Compose
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Docker Compose is a powerful tool for defining and managing multi-container applications. In this assignment, you will gain hands-on experience with Docker Compose by orchestrating a multi-container application. You will be provided with a sample application composed of multiple services, such as a web application and a database. Your task is to write a Docker Compose file to define and manage these containers effectively.
+
+Assignment Objectives:
+
+To understand the role of Docker Compose in managing multi-container applications.
+To gain practical experience in defining and orchestrating containers using Docker Compose.
+To work with services, networks, and volumes in a Docker Compose setup.
+Task Description:
+
+Sample Application:
+a. You will be provided with a sample multi-container application. This application may include services like a web application, a database, and possibly others.
+b. Familiarize yourself with the components of the sample application and how they interact.
+
+Docker Compose File:
+a. Write a Docker Compose YAML file that defines the services, networks, and volumes required for the multi-container application.
+b. Define the following in your Docker Compose file:
+
+Services: Specify the services required for the application (e.g., web app, database).
+Networks: Create a custom Docker network to enable communication between the services.
+Volumes: Define any necessary volumes for data persistence.
+c. Configure the services, networks, and volumes according to the sample application's requirements.
+Launching the Multi-Container Application:
+a. Use Docker Compose to bring up the entire application stack defined in your Docker Compose file. Use the docker-compose up command.
+b. Ensure that all services start without errors, and there are no issues with connectivity.
+
+Testing and Verification:
+a. Access the application's web interface (if applicable) and perform basic operations to verify that it is functioning correctly.
+b. Document any challenges you encounter and the steps taken to resolve them.
+
+Documentation:
+a. Create documentation that includes the following:
+
+Your Docker Compose YAML file.
+A brief description of the multi-container application and its components.
+Instructions for launching the application using Docker Compose.
+Any issues or challenges faced during the setup and how you addressed them.
+Submission:
+a. Compile your documentation and Docker Compose file into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Docker Compose YAML file.
+Successful deployment and operation of the multi-container application.
+Clarity and organization of the documentation.
+Testing and verification of the application.
+Adherence to submission guidelines (format, documentation quality).

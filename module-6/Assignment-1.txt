@@ -1,0 +1,53 @@
+Container Security Best Practices
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Container security is a critical aspect of Docker development, ensuring that containers and the applications within them remain protected from vulnerabilities and threats. In this assignment, students will delve into container security best practices by researching and creating a presentation or report. They will explore topics such as user namespaces, image vulnerability scanning, and techniques for minimizing security risks.
+
+Assignment Objectives:
+
+To gain a comprehensive understanding of container security best practices.
+To become familiar with essential security measures and techniques for Docker containers.
+To communicate and present container security concepts effectively.
+Task Description:
+
+Introduction to Container Security:
+a. Provide an overview of the importance of container security in the context of Docker development.
+b. Explain why securing containers is crucial for protecting applications and data.
+
+Research and Presentation/Report:
+a. Assign each student or group a specific container security best practice topic to research and present/report on. Some possible topics include:
+
+User namespaces in container security.
+Image vulnerability scanning and management.
+Techniques for minimizing security risks in Docker containers.
+b. Instruct students to conduct in-depth research on their assigned topic, gathering information from reputable sources, articles, documentation, and best practice guides.
+Presentation/Report Creation:
+a. Guide students in creating a presentation (e.g., PowerPoint) or report (e.g., PDF document) based on their research findings.
+b. Encourage students to structure their content logically, including explanations, examples, and practical advice related to the selected topic.
+
+Best Practices Discussion:
+a. Instruct students to discuss the best practices and recommendations associated with their assigned container security topic.
+b. Emphasize the importance of practical application and real-world scenarios in their explanations.
+
+Presentation or Report Delivery:
+a. Depending on the assignment format (presentation or report), students should present their findings to the class or submit their reports as instructed.
+
+Q&A and Discussion:
+a. After each presentation or report, facilitate a Q&A session and class discussion to allow students to ask questions and share insights related to container security.
+
+Documentation:
+a. If students are delivering presentations, they should create slides and speaking notes.
+b. If students are submitting reports, they should ensure that the report is well-structured, with clear headings, content, and references.
+
+Submission:
+a. Collect the presentations or reports as per your course guidelines.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Depth and accuracy of research on the assigned container security topic.
+Clarity and effectiveness of the presentation or report.
+Engagement in class discussions and Q&A sessions.
+Adherence to submission guidelines (format, content quality).

@@ -1,0 +1,50 @@
+Implementing Container Isolation
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Container isolation is a critical aspect of Docker security, ensuring that containers remain separate and secure from each other. In this assignment, students will design a scenario that requires isolating multiple containers from each other. They will create a Docker Compose file that leverages various security mechanisms, such as network segmentation and container resource limitations, to achieve isolation.
+
+Assignment Objectives:
+
+To understand the importance of container isolation for enhanced security.
+To gain hands-on experience in configuring Docker Compose files with security mechanisms.
+To apply security measures to isolate containers effectively.
+Task Description:
+
+Introduction to Container Isolation:
+a. Provide an introduction to the significance of container isolation in Docker security.
+b. Explain how isolation helps prevent potential security breaches and conflicts between containers.
+
+Scenario Design:
+a. Instruct students to design a scenario where multiple containers need to be isolated from each other. This could be a microservices architecture, a multi-tier application, or any other suitable scenario.
+b. Encourage them to think about the specific use case and the need for isolation.
+
+Docker Compose File Creation:
+a. Ask students to create a Docker Compose file that defines the containers, their interconnections, and the required security measures.
+b. Instruct them to use Docker Compose features and configuration options to implement isolation mechanisms. These may include:
+
+Network segmentation using custom bridge networks.
+Setting resource limitations (CPU, memory) for containers.
+Specifying read-only file systems or volume permissions.
+Leveraging security profiles or user namespaces.
+Security Documentation:
+a. Require students to document the security mechanisms they've employed in the Docker Compose file.
+b. Explain the rationale behind each security measure and how it contributes to container isolation.
+
+Testing and Verification:
+a. Encourage students to build and run the Docker Compose scenario to test the implemented isolation.
+b. Ask them to verify that containers are effectively isolated and that security measures are functioning as intended.
+c. Document the testing process and results.
+
+Presentation or Report (Optional):
+a. Depending on your course format, students can either present their designed scenario and security mechanisms to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective design and implementation of container isolation measures.
+Clarity and completeness of security documentation.
+Successful testing and verification of isolation mechanisms.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

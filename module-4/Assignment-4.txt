@@ -1,0 +1,56 @@
+Docker Image Caching and Efficiency
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Optimizing Docker image builds is essential for efficient development workflows. Docker image caching plays a crucial role in speeding up the build process by reusing layers from previous builds. In this assignment, students will explore Docker image caching and its role in improving build efficiency. They will be assigned a scenario where they need to optimize a Dockerfile by maximizing cache utilization to minimize image build times.
+
+Assignment Objectives:
+
+To gain a deep understanding of Docker image caching and its impact on build efficiency.
+To practice optimizing Dockerfiles to maximize cache utilization and minimize image build times.
+To enhance students' skills in efficient Docker image development.
+Task Description:
+
+Scenario Assignment:
+a. Assign each student or group a specific Dockerfile scenario. The scenario should involve building a Docker image for a particular application or service.
+b. Ensure that the Dockerfile for the scenario has room for optimization to improve build efficiency.
+
+Dockerfile Analysis:
+a. Instruct students to analyze the provided Dockerfile for their assigned scenario. Encourage them to identify potential improvements that can be made to maximize Docker image caching.
+b. Ask students to document the structure of the Dockerfile, including the order of instructions, and explain how the Dockerfile is currently configured.
+
+Docker Image Building:
+a. Guide students to build the Docker image based on the provided Dockerfile.
+b. Ensure that they document the time it takes to build the image without any optimizations.
+
+Cache Optimization:
+a. Instruct students to make specific optimizations to the Dockerfile to maximize cache utilization. These optimizations may include reordering instructions, combining layers, or using build arguments.
+b. Students should justify each optimization decision, explaining how it contributes to better cache utilization and reduced build times.
+
+Docker Image Rebuilding:
+a. After making the optimizations, students should rebuild the Docker image using the modified Dockerfile.
+b. Document the time it takes to build the image after optimizations.
+
+Cache Utilization Analysis:
+a. Ask students to analyze the impact of their optimizations on Docker image caching and build times.
+b. Compare the build time before and after optimizations and document the improvements achieved.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The original Dockerfile structure and configuration.
+Detailed explanations of the optimizations made to maximize Docker image caching.
+A comparison of build times before and after optimizations.
+Reflection on the importance of cache utilization in Docker image builds.
+Submission:
+a. Compile the documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accuracy and effectiveness of Dockerfile optimizations.
+Clarity and organization of the documentation.
+Demonstrated improvement in build times.
+Reflection on the significance of cache utilization in Docker image builds.
+Adherence to submission guidelines (format, documentation quality).

@@ -1,0 +1,52 @@
+Deploying a Basic Service in Docker Swarm
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Deploying services in a Docker Swarm cluster is a fundamental aspect of container orchestration. In this assignment, students will be tasked with deploying a basic application service (e.g., a web server) in a Docker Swarm cluster. They will create a Docker Compose file for the service, deploy it to the cluster, and ensure high availability by leveraging Swarm's capabilities.
+
+Assignment Objectives:
+
+To gain hands-on experience in deploying services in a Docker Swarm cluster.
+To understand the use of Docker Compose for defining and deploying services.
+To practice ensuring high availability and load balancing in a Swarm cluster.
+Task Description:
+
+Docker Swarm Cluster Setup:
+a. Ensure that students have access to a Docker Swarm cluster consisting of manager and worker nodes. Refer to the "Setting Up a Docker Swarm Cluster" assignment for the cluster setup.
+
+Basic Service Selection:
+a. Assign each student or group a basic application service to deploy within the Swarm cluster. Examples include a web server, a database, or a message queue.
+b. Ensure that the chosen service has a Docker Compose configuration suitable for deployment.
+
+Docker Compose File Creation:
+a. Instruct students to create a Docker Compose file for the selected service. The Compose file should define the service, including container configuration, ports, replicas, and any necessary environment variables.
+b. Encourage students to include the necessary specifications for high availability, such as the "replicas" option.
+
+Service Deployment:
+a. Guide students through the deployment of the service to the Docker Swarm cluster using the Docker Compose file. They should use the docker stack deploy command for this purpose.
+b. Ensure that students document the deployment process and provide the Compose file they used.
+
+High Availability Verification:
+a. Instruct students to verify the high availability and load balancing capabilities of the deployed service. They should:
+
+Check the status and distribution of service replicas across worker nodes.
+Verify that the service is accessible via the cluster's load balancer.
+Demonstrate the resilience of the service by scaling it up or down and observing the behavior.
+Documentation:
+a. Create documentation that includes the following:
+
+The Docker Compose file used for deploying the service.
+Detailed explanations of the service configuration within the Compose file.
+Documentation of the service deployment process, including any encountered challenges.
+Verification of high availability and load balancing in the Swarm cluster.
+Submission:
+a. Compile the documentation from each student or group into a single document (PDF or Word) for submission.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate and complete deployment of the service using Docker Compose.
+Successful verification of high availability and load balancing.
+Clarity and organization of the documentation.
+Adherence to submission guidelines (format, documentation quality).

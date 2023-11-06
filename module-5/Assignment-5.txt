@@ -1,0 +1,57 @@
+High Availability Configuration
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Configuring high availability for services in a Docker Swarm cluster is crucial for ensuring continuous availability and fault tolerance. In this assignment, students will learn how to configure high availability settings for a Docker Swarm service. They will explore concepts such as service replicas, constraints, and placement preferences to ensure that the service maintains availability in various scenarios.
+
+Assignment Objectives:
+
+To gain practical experience in configuring high availability for Docker Swarm services.
+To understand the importance of service replicas and placement constraints for fault tolerance.
+To practice defining constraints and preferences to control service placement.
+Task Description:
+
+Docker Swarm Cluster Setup:
+a. Ensure that students have access to a Docker Swarm cluster with manager and worker nodes. Refer to the "Setting Up a Docker Swarm Cluster" assignment for cluster setup.
+
+Service Selection:
+a. Assign each student or group a service to configure for high availability. This service should be suitable for demonstrating high availability concepts (e.g., a web application, a database, or a message queue).
+
+Docker Compose File Review:
+a. Instruct students to review the Docker Compose file of the selected service. They should analyze the current configuration and identify opportunities to enhance high availability.
+
+Replicas and Constraints:
+a. Guide students through the process of modifying the Docker Compose file to define the desired number of service replicas. They should set an appropriate number of replicas based on the desired level of availability.
+b. Introduce students to constraints, such as node placement constraints using labels, and explain how constraints can influence service placement.
+c. Instruct students to define constraints in the Compose file to control where service replicas are deployed (e.g., on specific nodes or with specific resource constraints).
+
+Placement Preferences:
+a. Explain the concept of placement preferences, which allow students to control how service replicas are distributed among nodes in the Swarm cluster.
+b. Instruct students to define placement preferences in the Compose file to optimize service placement based on factors like spread strategy or node availability.
+
+Service Deployment:
+a. Ask students to redeploy the service with the modified Docker Compose file to apply the high availability settings.
+b. Verify that the service replicas are distributed according to the defined constraints and placement preferences.
+
+Availability Testing (Optional):
+a. As an optional extension to the assignment, students can perform availability testing to demonstrate the service's fault tolerance. This may involve simulating node failures or load testing.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The original Docker Compose file for the service.
+Modifications made to the Compose file for high availability.
+Documentation of the deployment process, including the commands used.
+Verification of service availability and replica distribution based on constraints and preferences.
+Submission:
+a. Compile the documentation from each student or group into a single document (PDF or Word) for submission.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate and successful configuration of high availability settings.
+Verification of service availability and replica distribution.
+Clarity and organization of the documentation.
+Optional availability testing (if performed).
+Adherence to submission guidelines (format, documentation quality).

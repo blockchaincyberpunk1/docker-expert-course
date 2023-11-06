@@ -1,0 +1,62 @@
+Setting Up a Basic CI/CD Pipeline with Docker
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines is crucial for automating the development, testing, and deployment of containerized applications. In this assignment, students will create a simple CI/CD pipeline using a popular CI/CD tool (e.g., Jenkins, GitLab CI/CD) and Docker. They will design and configure a pipeline that builds, tests, and deploys a sample application to a testing environment.
+
+Assignment Objectives:
+
+To understand the concepts of CI/CD and its significance in Docker development.
+To gain hands-on experience in setting up a basic CI/CD pipeline with Docker.
+To practice automating application builds, tests, and deployments.
+Task Description:
+
+Introduction to CI/CD and Docker:
+a. Provide an introduction to the concepts of Continuous Integration and Continuous Deployment (CI/CD) and their role in modern software development.
+b. Explain how Docker can be integrated into CI/CD pipelines to streamline application delivery.
+
+Selection of CI/CD Tool:
+a. Instruct students to choose a CI/CD tool (e.g., Jenkins, GitLab CI/CD) for this assignment.
+b. Ensure that students have access to the chosen tool and the necessary permissions to configure pipelines.
+
+Sample Application:
+a. Provide students with a sample application (e.g., a simple web application) and its source code.
+b. Ensure that the application is containerized using Docker, and the source code is hosted in a version control system (e.g., Git).
+
+CI/CD Pipeline Design:
+a. Guide students through the process of designing a CI/CD pipeline that includes the following stages:
+
+Build: Creating Docker images from the application source code.
+Test: Running automated tests on the Docker images.
+Deploy: Deploying the application to a testing environment (e.g., Docker Swarm, Kubernetes, or a simple Docker container).
+Pipeline Configuration:
+a. Instruct students to configure the selected CI/CD tool to implement the designed pipeline stages.
+b. Encourage them to define the necessary build scripts, testing scripts, and deployment steps using Docker commands and configuration files (e.g., Docker Compose).
+
+Triggering the Pipeline:
+a. Ask students to initiate the CI/CD pipeline manually by pushing changes to the application's version control repository.
+b. Ensure they understand the pipeline's trigger mechanisms (e.g., webhook, Git hook) and can explain how it starts automatically when code changes are pushed.
+
+Testing and Verification:
+a. Encourage students to verify the pipeline's functionality by monitoring each stage's progress and examining the test results.
+b. Document the pipeline execution and any challenges encountered during the process.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+An overview of the designed CI/CD pipeline.
+Configuration details for each stage (build, test, deploy).
+The results of pipeline execution and testing.
+Any troubleshooting steps for resolving issues.
+Presentation (Optional):
+a. Depending on your course format, students can either present their CI/CD pipeline setup and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective design and configuration of the CI/CD pipeline.
+Successful execution of pipeline stages (build, test, deploy).
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

@@ -1,0 +1,54 @@
+Docker Compose for Development vs. Production
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Docker Compose is a powerful tool for defining multi-container applications. In real-world scenarios, you often need different configurations for development and production environments. In this assignment, you will explore the concept of Docker Compose environments by defining separate Compose files for development and production setups of a multi-container application. Your task is to customize the configurations for each environment and explain the differences between them.
+
+Assignment Objectives:
+
+To gain practical experience in defining Docker Compose files for different environments (development and production).
+To understand the importance of environment-specific configurations in containerized applications.
+To practice customizing Docker Compose configurations for specific use cases.
+Task Description:
+
+Multi-Container Scenario:
+a. Define a multi-container scenario for your Docker Compose setup. It could involve services such as a web application, a database, and other related components.
+b. Identify the differences in configuration required between a development and production environment (e.g., debug settings, database credentials).
+
+Docker Compose Files:
+a. Create two separate Docker Compose YAML files—one for the development environment and one for the production environment.
+b. Customize the configurations in each Compose file to meet the specific requirements of the environment. For example:
+
+Development: Enable debug mode, use development database credentials, and expose additional ports for debugging tools.
+Production: Disable debug mode, use production-ready database credentials, and minimize exposed ports for security.
+Configuration Differences:
+a. Document the key differences between the development and production Docker Compose files. Explain why each configuration setting is necessary for its respective environment.
+b. Highlight the implications of using different configurations in terms of functionality, security, and performance.
+
+Docker Compose Execution:
+a. Use the docker-compose command to launch the multi-container application for both the development and production environments.
+b. Verify that the services start without errors in each environment.
+
+Testing and Verification:
+a. Test the functionality of your multi-container application in both the development and production environments.
+b. Document the results of your testing and identify any issues or observations related to the environment-specific configurations.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The Docker Compose YAML files for both development and production environments.
+Detailed explanations of the environment-specific configurations and their purposes.
+Documentation of testing and verification results, including any issues encountered.
+Reflection on the importance of environment-specific configurations in containerized applications.
+Submission:
+a. Compile your Docker Compose YAML files and documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of Docker Compose configurations for development and production environments.
+Clarity and organization of the documentation.
+Successful deployment and functionality testing in both environments.
+Reflection on the importance of environment-specific configurations.
+Adherence to submission guidelines (format, documentation quality).

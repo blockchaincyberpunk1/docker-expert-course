@@ -1,0 +1,55 @@
+Docker Security Configuration Review
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Reviewing and enhancing Docker security configurations is vital for maintaining the integrity and security of containerized applications. In this assignment, students will evaluate existing Docker Compose files or Dockerfiles and propose security-related improvements. They will identify potential security vulnerabilities and suggest enhancements to strengthen the security of the Docker environment.
+
+Assignment Objectives:
+
+To develop critical thinking skills in identifying security vulnerabilities.
+To enhance understanding of Docker security best practices.
+To apply security-related improvements to Docker Compose files or Dockerfiles.
+Task Description:
+
+Introduction to Docker Security:
+a. Provide an introduction to the importance of Docker security and the potential risks associated with insecure configurations.
+b. Explain that the assignment focuses on reviewing and enhancing security configurations.
+
+Assignment Material:
+a. Provide students with an existing Docker Compose file or Dockerfile for an application or service. Ensure that the provided configuration includes potential security vulnerabilities or areas for improvement.
+b. If applicable, provide access to any associated application source code or documentation.
+
+Security Configuration Review:
+a. Instruct students to carefully review the provided Docker Compose file or Dockerfile.
+b. Ask them to identify security vulnerabilities or weaknesses in the configuration. Vulnerabilities could relate to user management, network settings, exposed ports, or any other security-related aspects.
+c. Encourage students to use Docker's official documentation and best practice guides as references for identifying security issues.
+
+Proposal for Enhancements:
+a. Have students propose security-related enhancements to the Docker Compose file or Dockerfile. They should suggest specific changes that mitigate the identified vulnerabilities or weaknesses.
+b. Ensure that their proposals align with Docker security best practices, such as principle of least privilege, container isolation, and secure network configurations.
+
+Documentation:
+a. Require students to create a detailed report or documentation that includes:
+
+An overview of the reviewed Docker configuration.
+A list of identified security vulnerabilities or weaknesses.
+Proposals for security-related enhancements.
+Clear explanations of the rationale behind each proposal.
+Any Docker commands or configuration changes needed for implementation.
+Implementation (Optional):
+a. As an optional extension, students can choose to implement their proposed security enhancements in the provided Docker Compose file or Dockerfile and test the modified configuration.
+b. If students choose to implement their enhancements, they should document the changes made and the results of testing.
+
+Presentation (Optional):
+a. Depending on your course format, students can either present their findings and proposals to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate identification of security vulnerabilities.
+Quality and effectiveness of security enhancement proposals.
+Clarity and completeness of documentation.
+Optional implementation (if performed).
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

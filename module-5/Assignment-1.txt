@@ -1,0 +1,51 @@
+Setting Up a Docker Swarm Cluster
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Docker Swarm is a powerful container orchestration tool that allows for the creation of clusters to manage containers across multiple nodes. In this assignment, students will learn how to set up a Docker Swarm cluster consisting of manager and worker nodes. They will document the steps involved in initializing the swarm, joining nodes, and verifying the cluster's status, providing them with hands-on experience in cluster creation and management.
+
+Assignment Objectives:
+
+To gain practical experience in setting up a Docker Swarm cluster.
+To understand the concepts of manager and worker nodes in a Swarm cluster.
+To practice initializing a swarm, joining nodes, and verifying cluster status.
+Task Description:
+
+Environment Preparation:
+a. Ensure that students have access to multiple virtual machines or cloud instances that will serve as the nodes for their Docker Swarm cluster.
+b. Verify that Docker is installed and properly configured on each node.
+
+Swarm Initialization:
+a. Assign one student or group to be the Swarm manager. Instruct them to initialize the Docker Swarm by using the docker swarm init command on the manager node.
+b. Document the output of the docker swarm init command, which includes a token for worker nodes to join the swarm.
+
+Joining Worker Nodes:
+a. Assign other students or groups as worker nodes. Instruct them to join the Swarm cluster using the token obtained from the manager's docker swarm init output.
+b. Document the steps involved in joining worker nodes to the swarm.
+
+Verifying Swarm Status:
+a. Instruct all students to verify the status of the Docker Swarm cluster by running appropriate Docker commands.
+b. They should check the status of manager and worker nodes, as well as inspect the swarm services and networks to ensure they are correctly configured.
+
+Cluster Documentation:
+a. Each student or group should create documentation that includes the following:
+
+The steps they followed to initialize the Docker Swarm on the manager node.
+The steps taken by worker nodes to join the swarm.
+Screenshots or logs showing the successful initialization and joining of nodes.
+Output of commands used to verify the swarm status, including manager and worker nodes, services, and networks.
+Cluster Testing (Optional):
+a. As an optional extension to the assignment, students can deploy a simple service on the Docker Swarm cluster to test its functionality. This can include creating a service, scaling it, and accessing it.
+
+Submission:
+a. Compile the documentation from each student or group into a single document (PDF or Word) for submission.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate and complete documentation of swarm initialization and node joining.
+Successful verification of the swarm status.
+Clarity and organization of the documentation.
+Optional testing of the swarm cluster (if performed).
+Adherence to submission guidelines (format, documentation quality).

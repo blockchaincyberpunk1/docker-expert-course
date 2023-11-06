@@ -1,0 +1,52 @@
+Docker Compose Basics
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Docker Compose simplifies the process of defining and running multi-container applications. In this assignment, you will get started with Docker Compose by creating a simple Docker Compose file. Your task is to define and run a multi-container application with two services, such as a web application and a database. You will document the setup, including service definitions and networking configuration.
+
+Assignment Objectives:
+
+To gain hands-on experience with Docker Compose.
+To understand the structure of a Docker Compose file and how it defines multi-container applications.
+To practice configuring services and networking in Docker Compose.
+Task Description:
+
+Multi-Container Scenario:
+a. Define a simple multi-container scenario that requires the use of two services. For example, you can have a web application container that depends on a database container.
+
+Docker Compose File:
+a. Create a Docker Compose YAML file that defines the services and networking for your multi-container application.
+b. Define two services within the Compose file: one for the web application and one for the database.
+c. Configure the services with appropriate settings, including image names, ports, environment variables, and dependencies.
+d. Specify a custom network for the containers to ensure they can communicate.
+
+Service Configuration:
+a. Document the configuration details for each service, including:
+
+Image: Specify the Docker image to use for each service.
+Ports: Define the ports to expose for each service.
+Environment Variables: Set any environment variables required for the services to function correctly.
+Dependencies: Ensure that the web application service depends on the database service.
+Networking Configuration:
+a. Explain the networking configuration within your Docker Compose file, including how containers can communicate with each other.
+b. Ensure that the containers in your scenario can communicate successfully.
+
+Docker Compose Execution:
+a. Use the docker-compose up command to launch your multi-container application based on the Docker Compose file.
+b. Verify that all services are running without errors and can interact as expected.
+
+Testing and Documentation:
+a. Test the functionality of your multi-container application by interacting with the web application and database.
+b. Document your experience, including any challenges faced and how you resolved them.
+
+Submission:
+a. Compile your Docker Compose YAML file and documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Docker Compose YAML file.
+Clarity and organization of the documentation.
+Successful deployment and functionality testing of the multi-container application.
+Adherence to submission guidelines (format, documentation quality).

@@ -1,0 +1,63 @@
+ Minimizing Docker Image Size
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Reducing Docker image size is a key aspect of Docker image optimization. In this assignment, students will be tasked with optimizing an existing Docker image to reduce its size while maintaining the functionality of the application. They will review the Dockerfile, identify unnecessary dependencies or files, and modify it to create a smaller image. This hands-on exercise will enhance students' skills in image optimization.
+
+Assignment Objectives:
+
+To gain practical experience in optimizing Docker images to reduce their size.
+To understand the importance of image size optimization for efficient containerization.
+To practice identifying and removing unnecessary dependencies or files from Docker images.
+Task Description:
+
+Docker Image Selection:
+a. Assign each student or group an existing Docker image that needs optimization. The image should contain a specific application or service.
+b. Ensure that the selected Docker image has room for size reduction without compromising functionality.
+
+Dockerfile Analysis:
+a. Instruct students to analyze the provided Dockerfile for their assigned image. Encourage them to review the instructions, dependencies, and layers used in the Dockerfile.
+b. Ask students to document the structure of the Dockerfile and highlight any potential areas where size optimization can be applied.
+
+Docker Image Building:
+a. Guide students to build the Docker image based on the provided Dockerfile.
+b. Ensure that they document the original size of the image before any optimizations.
+
+Size Optimization:
+a. Instruct students to make specific optimizations to the Dockerfile and the image itself to reduce its size. These optimizations may include:
+
+Removing unnecessary dependencies or packages.
+Deleting temporary build files.
+Cleaning up unnecessary caches.
+b. Students should justify each optimization decision, explaining how it contributes to a smaller image size and ensuring that it does not break the application.
+Docker Image Rebuilding:
+a. After making the optimizations, students should rebuild the Docker image using the modified Dockerfile.
+b. Document the new size of the image after optimizations.
+
+Functionality Verification:
+a. Ask students to thoroughly test the functionality of the optimized Docker image to ensure that it still runs the application correctly.
+b. Document the results of testing to confirm that the application remains functional.
+
+Size Reduction Analysis:
+a. Instruct students to analyze the impact of their optimizations on the Docker image size.
+b. Compare the image size before and after optimizations and document the size reduction achieved.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The original Dockerfile structure and configuration.
+Detailed explanations of the optimizations made to reduce image size.
+A comparison of image sizes before and after optimizations.
+Documentation of testing and verification results to ensure application functionality.
+Submission:
+a. Compile the documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accuracy and effectiveness of Dockerfile and image optimizations.
+Clarity and organization of the documentation.
+Demonstrated reduction in image size.
+Confirmation of application functionality after optimizations.
+Adherence to submission guidelines (format, documentation quality).

@@ -1,0 +1,48 @@
+Creating and Running a Custom Docker Image
+
+Course: Docker Developer Course
+
+Assignment Overview:
+One of the essential skills for a Docker developer is the ability to create and run custom Docker images. In this assignment, you will learn how to create a custom Docker image containing a simple application, such as a "Hello World" web server. You will write a Dockerfile, build the image, and run containers based on that image. This hands-on exercise will provide practical experience in Docker image creation and containerization.
+
+Assignment Objectives:
+
+To gain practical experience in creating custom Docker images.
+To understand the structure and components of a Dockerfile.
+To become proficient in building Docker images and running containers from custom images.
+Task Description:
+
+Application Selection:
+a. Choose a simple application to include in your custom Docker image. A common choice is a "Hello World" web server, but you can opt for any other straightforward application.
+b. Ensure that the chosen application can run within a Docker container.
+
+Dockerfile Creation:
+a. Write a Dockerfile that specifies the configuration for your custom Docker image. Include the necessary instructions to set up your chosen application within the container.
+b. Pay attention to critical Dockerfile elements, such as selecting a base image, installing dependencies, and configuring the application.
+c. Document your Dockerfile with comments explaining each step and its purpose.
+
+Building the Custom Docker Image:
+a. Build the custom Docker image using the Dockerfile you created in the previous step. Use the docker build command.
+b. Verify that the image is successfully built by running docker images and providing the output.
+
+Running Docker Containers:
+a. Run multiple Docker containers based on the custom image you built in step 3. Use the docker run command.
+b. Ensure that the containers are up and running.
+c. Access the application within the containers, either through a web browser (if applicable) or by examining container logs.
+
+Documentation and Testing:
+a. Document your experience throughout the process. Include any challenges you faced and how you resolved them.
+b. Test the functionality of the containers by interacting with the application. Verify that it behaves as expected.
+c. Provide screenshots or terminal/command prompt outputs as needed to illustrate your work.
+
+Submission:
+a. Compile your documentation, Dockerfile, and any relevant screenshots into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Dockerfile.
+Successful building and running of Docker containers.
+Clarity and organization of the documentation.
+Testing and verification of the containerized application.
+Adherence to submission guidelines (format, screenshots).

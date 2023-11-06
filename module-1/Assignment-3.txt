@@ -1,0 +1,39 @@
+Docker Installation
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Before diving into the world of Docker containers and development, it's crucial to have Docker installed and configured correctly on your local machine. In this assignment, you will learn how to install and configure Docker on your computer, regardless of the operating system you are using. This hands-on task is a foundational step in your journey as a Docker developer.
+
+Assignment Objectives:
+
+To gain practical experience in installing Docker on various operating systems.
+To ensure that Docker is correctly configured and operational on your local machine.
+Task Description:
+
+Installation Process:
+a. Select your preferred operating system (Windows, macOS, or Linux), and choose the appropriate installation method for that OS.
+b. Follow the official Docker installation instructions for your selected OS. You can find these instructions on the Docker website: https://docs.docker.com/get-docker/
+c. Document the installation process step-by-step. Include screenshots or terminal/command prompt outputs where relevant. Pay special attention to any prerequisites, dependencies, or additional configurations that may be required.
+
+Docker Version Verification:
+a. After completing the installation, verify that Docker has been installed correctly.
+b. Open a terminal or command prompt and run the following command: docker --version
+c. Document the output of the command to confirm the Docker version installed.
+
+Docker Engine Demonstration:
+a. Start Docker on your local machine.
+b. Demonstrate the use of basic Docker commands to ensure Docker is operational. For example, you can run the command: docker run hello-world
+c. Provide screenshots or terminal/command prompt outputs to show the successful execution of Docker commands.
+
+Submission:
+a. Create a document (PDF or Word) containing the installation documentation, screenshots, and any outputs from the verification steps.
+b. Ensure the document is well-organized with clear headings and descriptions.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Completeness and accuracy of the installation documentation.
+Clarity and organization of the submission.
+Successful verification of Docker installation and execution of basic Docker commands.
+Adherence to submission guidelines (format, screenshots).

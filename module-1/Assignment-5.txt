@@ -1,0 +1,56 @@
+Docker Commands and Basic Operations
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Becoming proficient in Docker commands and basic operations is a fundamental skill for Docker developers. In this assignment, you will practice essential Docker commands by completing various scenarios related to container creation, image management, network configuration, and more. This hands-on exercise will help you become comfortable with common Docker operations.
+
+Assignment Objectives:
+
+To gain practical experience with Docker commands.
+To become proficient in performing common Docker tasks.
+To develop the ability to write scripts or run commands to achieve specific Docker-related objectives.
+Task Description:
+
+Common Docker Commands:
+Below is a list of common Docker scenarios and associated tasks. You are required to use Docker commands to achieve these objectives. Feel free to use scripts or run individual commands as needed.
+
+a. Container Creation and Management:
+
+Create a new Docker container based on a specific image.
+List all running containers.
+Stop a running container.
+Remove a container.
+b. Image Management:
+
+Pull a Docker image from Docker Hub (e.g., a popular Linux distribution).
+Build a custom Docker image from a Dockerfile.
+List all Docker images on your system.
+Remove an unused Docker image.
+c. Network Configuration:
+
+Create a custom Docker network.
+Attach a container to a specific network.
+Inspect the network configuration of a running container.
+Remove a Docker network.
+d. Volume Management:
+
+Create a named Docker volume.
+Mount a Docker volume to a container.
+Inspect volume information for a container.
+Remove a Docker volume.
+Execution and Documentation:
+a. For each task in the list above, execute the necessary Docker commands or scripts.
+b. Document your actions, including the commands or scripts used, and the output/results observed.
+c. Reflect on each task and provide a brief description of why it is important in Docker development.
+
+Submission:
+a. Compile your documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Correctness and completeness of the Docker commands or scripts used.
+Clarity and organization of the documentation.
+Reflection on the importance of each task in Docker development.
+Adherence to submission guidelines (format, documentation quality).

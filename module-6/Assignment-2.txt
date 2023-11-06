@@ -1,0 +1,53 @@
+Vulnerability Scanning and Reporting
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Ensuring the security of Docker images is essential to protect applications and data from known vulnerabilities. In this assignment, students will gain hands-on experience in vulnerability scanning by setting up a vulnerability scanning tool (e.g., Trivy or Clair) and using it to scan Docker images. They will generate a report that identifies vulnerabilities and assesses their severity levels.
+
+Assignment Objectives:
+
+To understand the importance of vulnerability scanning in Docker image security.
+To gain practical experience in setting up and using a vulnerability scanning tool.
+To create vulnerability reports and assess the severity of identified issues.
+Task Description:
+
+Introduction to Vulnerability Scanning:
+a. Provide an overview of the significance of vulnerability scanning in Docker image security.
+b. Explain why identifying and mitigating known vulnerabilities is crucial for containerized applications.
+
+Selection of Vulnerability Scanning Tool:
+a. Instruct students to choose a vulnerability scanning tool for this assignment. Suggested tools include Trivy, Clair, or another suitable open-source tool.
+b. Ensure that students have access to the necessary resources and documentation for setting up and using the selected tool.
+
+Docker Image Selection:
+a. Assign each student or group a Docker image (e.g., an application image) to use for vulnerability scanning. The images should be publicly available or provided by the instructor.
+b. Students can choose images based on their interests, but they should aim to select images that are likely to have known vulnerabilities.
+
+Vulnerability Scanning Setup:
+a. Guide students through the process of setting up the chosen vulnerability scanning tool in their development environment or within a containerized environment.
+b. Ensure that they understand how to configure the tool for image scanning.
+
+Image Scanning and Reporting:
+a. Instruct students to use the vulnerability scanning tool to scan their assigned Docker images for known vulnerabilities.
+b. Ask them to generate a detailed report that lists the identified vulnerabilities, their descriptions, and their severity levels (e.g., using the Common Vulnerability Scoring System - CVSS).
+
+Vulnerability Severity Assessment:
+a. Teach students how to assess the severity of identified vulnerabilities based on their impact, exploitability, and CVSS scores.
+b. Encourage them to categorize vulnerabilities as critical, high, medium, or low severity.
+
+Documentation:
+a. Ask students to document the entire process of setting up the scanning tool, scanning Docker images, and generating vulnerability reports.
+b. The documentation should include steps taken, commands used, and any challenges encountered.
+
+Report Presentation:
+a. Depending on your course format, students can either present their findings to the class or submit their reports as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Successful setup and use of the chosen vulnerability scanning tool.
+Quality and completeness of the vulnerability report.
+Accurate assessment of vulnerability severity levels.
+Clarity and organization of documentation.
+Adherence to submission guidelines (format, content quality).

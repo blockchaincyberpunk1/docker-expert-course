@@ -1,0 +1,53 @@
+Rolling Updates with Docker Swarm
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Performing rolling updates in a Docker Swarm cluster is essential to maintain application availability while applying changes. In this assignment, students will learn how to implement rolling updates for a service in a Docker Swarm cluster. They will modify the service's Docker image, trigger an update, and ensure zero downtime during the update process, gaining valuable experience in managing updates in a production-like environment.
+
+Assignment Objectives:
+
+To gain hands-on experience in performing rolling updates using Docker Swarm.
+To understand the concept of rolling updates and their importance for application availability.
+To practice modifying Docker Compose files and managing service updates.
+Task Description:
+
+Docker Swarm Cluster Setup:
+a. Ensure that students have access to a Docker Swarm cluster with manager and worker nodes. Refer to the "Setting Up a Docker Swarm Cluster" assignment for cluster setup.
+
+Service Selection:
+a. Assign each student or group a service that is currently deployed within the Swarm cluster. This service should have a Docker Compose configuration and be running with the current Docker image.
+b. Verify that the chosen service is suitable for demonstrating rolling updates (e.g., a web application, a microservice).
+
+Docker Compose File Review:
+a. Instruct students to review the Docker Compose file of the selected service. They should analyze the current configuration, including the Docker image version and any other relevant parameters.
+
+Docker Image Update:
+a. Guide students through the process of updating the Docker image for the selected service. They should modify the Docker Compose file to use a new version of the image.
+b. Ensure that students document the changes made to the Compose file, including the new image version.
+
+Rolling Update Trigger:
+a. Instruct students to trigger a rolling update for the service using the docker service update command. They should specify the service name and image version to update to.
+b. Emphasize the importance of the "update-delay" option to control the rate of updates and minimize downtime.
+
+Monitoring and Verification:
+a. Ask students to monitor the update progress by checking the status of the service replicas and tasks.
+b. Ensure that they verify that the update is performed with zero downtime and that the new version of the service is fully operational.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The original Docker Compose file for the service.
+Details of the modifications made to the Compose file for the update.
+Documentation of the rolling update process, including the commands used.
+Verification of zero downtime and the functionality of the updated service.
+Submission:
+a. Compile the documentation from each student or group into a single document (PDF or Word) for submission.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate and successful execution of the rolling update.
+Verification of zero downtime and service functionality.
+Clarity and organization of the documentation.
+Adherence to submission guidelines (format, documentation quality).

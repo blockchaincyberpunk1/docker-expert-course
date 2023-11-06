@@ -1,0 +1,59 @@
+Open-Source Contribution to Docker
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Contributing to open-source projects is an excellent way for Docker developers to gain real-world experience, improve their skills, and give back to the community. In this assignment, students will identify a Docker-related open-source project on platforms like GitHub and make meaningful contributions. Contributions could include submitting bug fixes, enhancing documentation, or adding new features. Students will document their contributions to demonstrate their involvement in the open-source community.
+
+Assignment Objectives:
+
+To encourage students to actively contribute to the Docker open-source ecosystem.
+To provide students with hands-on experience in open-source software development.
+To promote collaboration, code quality, and community engagement in Docker-related projects.
+Task Description:
+
+Introduction to Open-Source Contribution:
+a. Provide an introduction to open-source contribution, its importance, and its benefits for personal and professional growth.
+b. Explain how contributing to Docker-related projects can enhance Docker development skills.
+
+Project Selection:
+a. Instruct students to explore open-source platforms like GitHub and identify a Docker-related open-source project that aligns with their interests or expertise.
+b. Ensure that the selected project welcomes contributions from external contributors.
+
+Contribution Planning:
+a. Encourage students to thoroughly understand the project's documentation, issue tracker, and contribution guidelines.
+b. Ask them to plan their contributions, considering areas such as bug fixes, documentation improvements, or feature additions.
+
+Meaningful Contribution:
+a. Instruct students to make meaningful contributions to the selected project.
+
+This could include submitting pull requests (PRs) with code changes, addressing reported issues, or improving project documentation.
+b. Emphasize the importance of adhering to project coding standards and guidelines.
+Documenting Contributions:
+a. Require students to document their contributions in detail. Documentation should include:
+
+The name and URL of the selected open-source project.
+A description of the contribution (e.g., the issue number, the nature of the contribution, and the PR link).
+The technical details of the contribution, if applicable.
+b. Encourage them to provide context on why their contribution is valuable to the project.
+Review and Feedback:
+a. Explain the importance of engaging with project maintainers and reviewers during the contribution process.
+b. Students should be prepared to respond to feedback and make necessary revisions.
+
+Reflection:
+a. Ask students to reflect on their open-source contribution experience:
+
+What did they learn from the project and its community?
+How did their contribution benefit the project or its users?
+Did they encounter any challenges during the contribution process?
+Presentation (Optional):
+a. Depending on your course format, students can either present their open-source contribution experience and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Meaningful and valuable contributions to the selected open-source project.
+Effective documentation of contributions, including project details and context.
+Clarity and completeness of reflection.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

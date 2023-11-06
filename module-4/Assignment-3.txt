@@ -1,0 +1,54 @@
+Analyzing Docker Image Layers
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Understanding Docker image layers is crucial for optimizing image size and performance. In this assignment, students will analyze and document the layers in a Docker image. They will explain the purpose of each layer, how they contribute to the image size, and propose potential optimizations to reduce the number of layers. This assignment will deepen students' knowledge of Docker image construction and optimization.
+
+Assignment Objectives:
+
+To gain a deep understanding of Docker image layers and their impact on image size and performance.
+To practice analyzing and documenting Docker image layers for optimization.
+To propose potential optimizations to reduce the number of image layers.
+Task Description:
+
+Docker Image Selection:
+a. Assign each student or group a Docker image to analyze. The image should contain a specific application or service.
+b. Ensure that the chosen Docker image has multiple layers and could benefit from optimization.
+
+Analyzing Image Layers:
+a. Instruct students to pull the assigned Docker image to their local environment.
+b. Use the docker history command to display the history of the image layers. This command provides information about each layer, including its image ID, creation time, and size.
+c. Ask students to document the following information for each layer in the Docker image:
+
+The purpose of the layer (e.g., installing dependencies, copying application code).
+The specific commands or instructions in the Dockerfile that contributed to the layer.
+The size of the layer.
+Any potential optimizations they identify.
+Image Layer Size Analysis:
+a. Instruct students to analyze the image layers and determine which layers contribute the most to the image's size.
+b. Encourage them to calculate the overall image size and identify opportunities for reducing it.
+
+Optimizing Image Layers:
+a. Based on their analysis, ask students to propose potential optimizations to reduce the number of layers in the Docker image and minimize its size.
+b. Students should explain how their proposed optimizations would impact the image and justify their recommendations.
+
+Documentation:
+a. Create documentation that includes the following for the analyzed Docker image:
+
+A list of image layers with descriptions of their purposes.
+The Dockerfile instructions corresponding to each layer.
+The size of each layer.
+Identification of layers that contribute significantly to the image size.
+Proposed optimizations to reduce the number of layers and overall image size.
+Submission:
+a. Compile the documentation into a single document (PDF or Word).
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accuracy and completeness of the layer analysis.
+Clarity and organization of the documentation.
+Identification of image layers that significantly impact image size.
+Quality of proposed optimizations and justifications.
+Adherence to submission guidelines (format, documentation quality).

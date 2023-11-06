@@ -1,0 +1,56 @@
+Multi-Environment Deployment with Docker Compose
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Deploying applications to various environments, such as development, staging, and production, is a crucial skill for Docker developers. In this assignment, students will create a Docker Compose file capable of deploying an application to different environments using environment-specific configurations. They will demonstrate how to use the same Compose file for deploying to multiple environments, promoting consistency and ease of deployment.
+
+Assignment Objectives:
+
+To understand the importance of environment-specific configuration in multi-environment deployments.
+To gain hands-on experience in creating a versatile Docker Compose file for deploying applications to different environments.
+To practice managing environment-specific settings within a Docker Compose setup.
+Task Description:
+
+Introduction to Multi-Environment Deployment:
+a. Provide an introduction to the significance of multi-environment deployment in Docker development.
+b. Explain how environment-specific configurations help maintain consistency and simplify deployment.
+
+Sample Application:
+a. Provide students with a sample application (e.g., a web application) and its source code.
+b. Ensure that the application can be configured differently for each environment (e.g., database connection settings, debug mode).
+
+Docker Compose File Creation:
+a. Instruct students to create a Docker Compose file that defines the application's services and dependencies.
+b. Encourage them to design the Compose file in a way that supports deployment to multiple environments (e.g., dev, staging, prod).
+
+Environment-Specific Configuration:
+a. Teach students how to manage environment-specific configuration by using environment variables, configuration files, or volume mounts within the Compose file.
+b. Ensure they understand how to parameterize settings that may change across environments.
+
+Deployment to Different Environments:
+a. Instruct students to demonstrate how the same Docker Compose file can be used to deploy the application to different environments.
+b. They should use environment-specific configurations (e.g., .env files, environment variables) to customize the deployment.
+
+Testing and Verification:
+a. Encourage students to build and deploy the application to multiple environments using the same Compose file.
+b. Ask them to verify that the application runs correctly in each environment and that the environment-specific settings are applied as expected.
+
+Documentation:
+a. Require students to create documentation that includes:
+
+The Docker Compose file.
+Environment-specific configuration examples.
+Steps for deploying the application to different environments.
+Verification results for each environment.
+Presentation (Optional):
+a. Depending on your course format, students can either present their multi-environment deployment setup and findings to the class or submit their documentation as instructed.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Effective creation of a Docker Compose file for multi-environment deployment.
+Successful deployment of the application to different environments.
+Clarity and completeness of documentation.
+Optional presentation (if performed).
+Adherence to submission guidelines (format, content quality).

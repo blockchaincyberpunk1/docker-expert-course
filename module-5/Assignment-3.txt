@@ -1,0 +1,53 @@
+Horizontal Scaling with Docker Swarm
+
+Course: Docker Developer Course
+
+Assignment Overview:
+Horizontal scaling is a crucial aspect of container orchestration, allowing applications to handle increased loads by adding more instances. In this assignment, students will practice horizontal scaling by scaling an existing application service in a Docker Swarm cluster. They will modify the service configuration, increase the replica count, and verify that the service scales accordingly.
+
+Assignment Objectives:
+
+To gain hands-on experience in horizontal scaling using Docker Swarm.
+To understand the concepts of scaling service replicas for high availability and load distribution.
+To practice modifying Docker Compose files to achieve horizontal scaling.
+Task Description:
+
+Docker Swarm Cluster Setup:
+a. Ensure that students have access to a Docker Swarm cluster with manager and worker nodes. Refer to the "Setting Up a Docker Swarm Cluster" assignment for cluster setup.
+
+Existing Service Selection:
+a. Assign each student or group an existing application service that has been previously deployed within the Swarm cluster. This service should have a Docker Compose configuration in place.
+b. Verify that the chosen service has room for horizontal scaling (e.g., it can handle multiple replicas).
+
+Docker Compose File Review:
+a. Instruct students to review the Docker Compose file of the selected service. They should analyze the current configuration, including the number of replicas (if any).
+
+Horizontal Scaling Modification:
+a. Guide students through the process of modifying the Docker Compose file to increase the number of replicas for the selected service. They should adjust the "replicas" option to specify the desired number of instances.
+b. Ensure that students document the modifications made to the Compose file.
+
+Service Scaling:
+a. Instruct students to use the docker stack deploy command to redeploy the service with the increased replica count.
+b. Ask them to verify that the service scales horizontally by checking the distribution of replicas across worker nodes and confirming that the service remains accessible.
+
+Load Testing (Optional):
+a. As an optional extension to the assignment, students can perform load testing on the scaled service to demonstrate its ability to handle increased traffic.
+
+Documentation:
+a. Create documentation that includes the following:
+
+The original Docker Compose file for the service.
+Details of the modifications made to the Compose file for scaling.
+Documentation of the scaling process, including the commands used.
+Verification of the horizontal scaling, including the distribution of service replicas and accessibility.
+Submission:
+a. Compile the documentation from each student or group into a single document (PDF or Word) for submission.
+
+Evaluation Criteria:
+Your assignment will be evaluated based on the following criteria:
+
+Accurate and successful horizontal scaling of the service.
+Verification of the horizontal scaling results.
+Clarity and organization of the documentation.
+Optional load testing (if performed).
+Adherence to submission guidelines (format, documentation quality).
